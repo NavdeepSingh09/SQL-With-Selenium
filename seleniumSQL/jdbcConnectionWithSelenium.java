@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class jdbcConnectionWithSelenium {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
-			String dbURL = "jdbc:sqlserver://fe80::f945:59aa:9c02:878e%5:1433;" + "databaseName=db1;integratedSecuriy=true;";
+			String dbURL = "jdbc:sqlserver://fe80::f945:59aa:9c02:878e%5:Local Host PORT;" + "databaseName=db1;integratedSecuriy=true;";
 		
 		 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 	        //Creating connection to the database
