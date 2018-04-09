@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class SQLAdd {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
 		
-		String dbURL = "jdbc:sqlserver://localhost:1433;databaseName=db1;integratedSecurity=true;";
+		String dbURL = "jdbc:sqlserver://localhost:Local Host PORT;databaseName=db1;integratedSecurity=true;";
 					
 					 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 					 
